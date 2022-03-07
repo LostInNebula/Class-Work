@@ -1,2 +1,2 @@
 # Class-Work
-Assignments done as a part of my introductory computer science class
+A few of the assignments done as a part of my introductory computer science class.
