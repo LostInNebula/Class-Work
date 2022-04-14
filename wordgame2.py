@@ -47,3 +47,13 @@ def durdle_game():
             count += 1
     print("Congratulations, you got it in",count,"guesses!")
     return count
+
+# ---------------------------------------------------------------------------------------------------
+def get_word_list(filename):
+    '''
+    Purpose: returns a list containing every word in a given txt file
+    Parameter(s): filename: the txt file in which every word will be added to a list
+    Return Value: (words.read().split()): the list of every word in order within the given txt file
+    '''
+    with open(filename, 'r') as words:
+        return words.read().split()
